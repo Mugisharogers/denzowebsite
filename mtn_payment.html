@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTN Payment - ROGER TOURISM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation omitted for brevity -->
+    </header>
+
+    <h2>MTN Payment</h2>
+    <form action="process_payment.html" method="post">
+        <select name="salutation">
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Prof">Prof</option>
+        </select>
+        <label for="first_name">First Name:</label>
+        <br>
+        <input type="text" name="first_name" placeholder="First Name" required>
+        <br><br>
+        <label for="last_name">Last Name:</label>
+        <br>
+        <input type="text" name="last_name" placeholder="Last Name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" placeholder="Email" required>
+        <br><br>
+        <label for="mobile">Mobile:</label>
+        <br>
+        <input type="text" name="mobile" placeholder="Mobile" required>
+        <br><br>
+        <label for="address">Address:</label> 
+        <br>
+        <input type="text" name="address" placeholder="Address" required>
+        <br><br>
+        <label for="zip_code">Zip Code:</label>
+        <br>
+        <input type="text" name="zip" placeholder="Zip/Postal Code" required>
+        <br><br>
+        <label for="city">City:</label>
+        <br>
+        <input type="text" name="city" placeholder="City" required>
+        <br><br>
+        <label for="country">Country:</label>
+        <br>
+        <input type="text" name="country" placeholder="Country" required>
+        <br><br>
+        <label for="currency">Currency:</label>
+        <select name="currency">
+            <option value="UGX">UGX</option>
+            <option value="$">$</option>
+        </select>
+        <button type="submit">Make Payment</button>
+    </form>
+</body>
+</html>

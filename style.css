@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: hsl(120, 89%, 41%);
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+footer{
+    background-color: green;
+    text-align: center;
+    font-size: 28px ;
+}
+.sar{
+    background-color: orange;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    text-shadow:2px 2px 4px #000000;
+}
+image{
+              
+    width: 500px;
+    height: 350px;
+    margin: 10px;
+}
+body {
+    background-color: #f8f9fa;
+}
+input[type=text]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=number]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button{
+    width: 10%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+input[type=date]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.bat{
+    background-color: red;
+}
+.cup{
+    background-color: lawngreen;
+}
+}
